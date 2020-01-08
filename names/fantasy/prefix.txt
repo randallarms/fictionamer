@@ -1,0 +1,18 @@
+Empress
+Empress Dowager
+Emperor
+Queen
+King
+Princess
+Prince
+Duchess
+Duke
+Countess
+Count
+Lady
+Lord
+Sir
+Archmage
+Grand Wizard
+Barbarian King
+Barbarian
