@@ -6,6 +6,9 @@ Aphrodite
 Andromeda
 Selene
 Erin
+Aeryn
+Aerin
+Rinn
 Helen
 Helena
 Sophia
@@ -26,3 +29,7 @@ Beatrice
 Belinda
 Aria
 Soraya
+Talia
+Aurora
+Kira
+Lara

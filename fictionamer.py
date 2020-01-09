@@ -14,7 +14,7 @@ print("=========")
 print("Generate a name!")
 
 # Name generation (genres to be added: scifi, horror, steampunk)
-genres = ["fantasy"]
+genres = ["fantasy", "scifi"]
 
 def name_gen(genre):
 
@@ -30,9 +30,9 @@ def name_gen(genre):
     # Get files
     __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
     
-    f_prefix = open(os.path.join(__location__, "names/fantasy/prefix.txt"), "r")
-    f_name = open(os.path.join(__location__, "names/fantasy/name_" + gender + ".txt"), "r")
-    f_suffix = open(os.path.join(__location__, "names/fantasy/suffix.txt"), "r")
+    f_prefix = open(os.path.join(__location__, "names/" + genre + "/prefix_" + gender + ".txt"), "r")
+    f_name = open(os.path.join(__location__, "names/" + genre + "/name_" + gender + ".txt"), "r")
+    f_suffix = open(os.path.join(__location__, "names/" + genre + "/suffix_" + gender + ".txt"), "r")
     
     # Fill list of possible names from file
     prefixes = []
@@ -51,7 +51,7 @@ def name_gen(genre):
         name_str += prefixes[randint(0, len(prefixes)-1)].strip('\n') + " "
     name_str += names[randint(0, len(names)-1)].strip('\n')
     name_str += " " + names[randint(0, len(names)-1)].strip('\n')
-    if randint(0,3) == 0:
+    if randint(0,5) == 0:
         name_str += ", " + suffixes[randint(0, len(suffixes)-1)].strip('\n')
     return name_str
         

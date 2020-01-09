@@ -39,3 +39,6 @@ Garick
 Jerrith
 Jarran
 Rovis
+Arthur
+Ben
+Kobold

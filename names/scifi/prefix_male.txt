@@ -1,0 +1,21 @@
+Engineer
+Physicist
+Biologist
+Botanist
+Astrophysicist
+Astrogeologist
+Astrobiologist
+Pilot
+Navigator
+Colonist
+Bounty Hunter
+Smuggler
+Jedi
+Jedi Master
+Jedi Grandmaster
+Sith
+Sith Lord
+Inquisitor
+Ultramarine
+Space Marine
+Psyker

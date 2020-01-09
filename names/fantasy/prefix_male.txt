@@ -1,0 +1,12 @@
+Emperor
+King
+Prince
+Duke
+Count
+Lord
+Sir
+Archmage
+Grand Wizard
+Barbarian King
+Barbarian
+Old
