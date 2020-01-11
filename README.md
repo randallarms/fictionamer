@@ -7,4 +7,8 @@ Generate names for fictional characters of various genres.
 ## Instructions
 When prompted, type in the genre you wish to generate a name based on.
 
-> Note: Currently, "fantasy" and "scifi" are the only supported genres. More coming soon!
+## Genres
+"fantasy" - Fantasy
+"scifi" - Sci-fi
+
+> Note: More coming soon!
