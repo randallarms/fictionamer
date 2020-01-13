@@ -13,9 +13,10 @@ print("Fictionamer")
 print("=========")
 print("Generate a name!")
 
-# Name generation (genres to be added: scifi, horror, steampunk)
-genres = ["fantasy", "scifi"]
+# Genres (to be added: steampunk)
+genres = ["fantasy", "scifi", "horror"]
 
+# Name generation
 def name_gen(genre):
 
     if not genre in genres:
