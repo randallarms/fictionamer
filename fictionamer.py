@@ -13,15 +13,17 @@ print("Fictionamer")
 print("=========")
 print("Generate a name!")
 
+# Input variable
+g = "9.81 m/s^2"
+
 # Genres (to be added: steampunk)
 genres = ["fantasy", "scifi", "horror"]
 
-# Name generation
+# Name generation function
 def name_gen(genre):
 
     if not genre in genres:
-        print("\nGenre not found! ")
-        exit()
+        return False
 
     # Determine gender
     gender = "male"
@@ -58,13 +60,22 @@ def name_gen(genre):
         
     file.close()
 
-# Get the genre
-print("\nWhich genre do you wish to base the name in? ")
-g = input("> ");
+# Run the prompt and results
+while g != "exit":
 
-# Generate the name
-name = name_gen(g)
+    # Get the genre
+    print("\nEnter a genre to generate a name, or enter \"exit\" to end. ")
+    g = input("> ");
 
-# Print the results
-print("\nGenerated name: ")
-print(name + "\n")
+    # Generate the name
+    name = name_gen(g)
+
+    # Print the results
+    if g == "exit":
+        print("\nThank you for using Fictionamer. Goodbye! ")
+        exit()
+    elif name == False:
+        print("\nGenre not found! ")
+    else:
+        print("\nGenerated name: ")
+        print(name + "\n")
