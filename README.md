@@ -1,8 +1,15 @@
-# BabyNamer
+# Fictionamer
 Written in *Python* by *Randall Arms* @ randallarms.com
 
 ## Summary
-Generate great baby idea names based on the most popular names of a year.
+Generate names for fictional characters of various genres.
 
 ## Instructions
-Enter a year (current options: 1924-2019), a gender (boy, girl), and a middle name option (yes, no).
+When prompted, type in the genre you wish to generate a name based on. You can also type "exit" to end the program.
+
+## Genres
+"fantasy" - Fantasy
+
+"scifi" - Sci-fi
+
+"horror" - Horror
